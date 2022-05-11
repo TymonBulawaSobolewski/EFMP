@@ -5,4 +5,4 @@ All the files are edited to show which code was made by GitHub Copilot. It will 
 
 ----------------------------------- GitHubCode
 exampleCode;
------------------------------------ GitHubCode
+----------------------------------- GitHubCodeEnd
