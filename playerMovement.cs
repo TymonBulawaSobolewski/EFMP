@@ -41,7 +41,7 @@ public class playerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
-        
+        ------------------------------- GitHubCode
         //when the player presses shift, the player will run at a faster speed
         if (Input.GetKey(KeyCode.LeftShift))
         {
@@ -51,5 +51,6 @@ public class playerMovement : MonoBehaviour
         {
             speed = 12f;
         }
+        ------------------------------- GitHubCode
     }
 }
