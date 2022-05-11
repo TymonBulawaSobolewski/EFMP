@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+------------------------------- GitHubCode
     //If bullet touches enemy, lower enemy health by 33 and destroy bullet
     private void OnCollisionEnter(Collision collision)
     {
@@ -17,5 +18,5 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
+    ------------------------------- GitHubCodeEnd
 }
